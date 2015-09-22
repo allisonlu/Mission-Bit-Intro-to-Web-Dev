@@ -1,0 +1,20 @@
+CSS basics
+
+- selectors: can be HTML elements, classes (use a dot)
+- properties: colors, fonts (size, family), background (color, images)
+- box style: introduce divs 
+- 
+
+
+HTML element {
+	property: value;
+}
+
+.header {
+	property: value;
+}
+
+- color property:
+  text color
+  RGB values (0-255)
+  hex numbers (00-ff)
