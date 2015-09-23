@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- style tag -->
+
+<html>
+<head>
+	<title>CSS basics</title>
+	
+	<!--CSS embedded inside style tag, inside head tag-->
+	<style>
+		h1 {
+			color: green;
+		}
+
+		h3 {
+			color: red;
+			font-family: Courier;
+		}
+
+		#first {
+			color: purple;
+			background-color: #cccccc;
+		}
+
+		#second {
+			color: white;
+			background-color: #523942;
+		}
+
+		.radical {
+			font-size:30px;
+			font-color: blue;
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1>What is CSS?</h1>
+	<p id="first">Cascading Style Sheets.</p>
+	
+	<h3>What else can we do with CSS?</h3>
+	<p id="second">
+		<ul>
+			<li>Group elements together</li>
+				<ol class="radical">
+					<li>using elements</li>
+					<li>using classes</li>
+					<li>using IDs</li>
+					<li class="big">These are called <strong>selectors</strong></li>
+				</ol>
+			<li>This way, we can manipulate certain elements all at once, of just a few at a time</li>
+		</ul>
+	</p>
+
+	<h3>IDs vs. Classes</h3>
+		<p class="radical">barcodes and serial numbers</p>
+		<p class="radical">IDs and serial numbers are <u>unique</u>, classes and barcodes are reusable.</p>
+		<p class="radical">IDs are more specific than classes, classes are more specific then elements.</p>
+</html>

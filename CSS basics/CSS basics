@@ -10,11 +10,22 @@ HTML element {
 	property: value;
 }
 
-.header {
+.class {
 	property: value;
+}
+
+#id {
+	property:value;
 }
 
 - color property:
   text color
   RGB values (0-255)
   hex numbers (00-ff)
+
+- font-size
+  pixels vs. ems vs. rems
+
+  https://s3.amazonaws.com/codecademy-content/courses/ltp/img/2/css-summary.png
+
+  box model: text, padding, border, margin

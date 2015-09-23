@@ -1,0 +1,32 @@
+/* main.css 
+	CSS part 3
+*/
+
+h1 {
+	color: green;
+	font-family: Courier;
+}
+
+#first {
+	color: purple;
+	background-color: #cccccc;
+}
+
+#second {
+	color: white;
+	background-color: #523942;
+}
+
+.radical {
+	font-size:30px;
+}
+
+a:link { /* unvisited link */
+  color: red;
+}
+a:visited { /* visited link */
+  color: blue;
+} 
+a:hover { /* moused over link */
+  color: green;
+}  
