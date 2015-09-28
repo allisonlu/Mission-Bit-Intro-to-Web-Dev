@@ -1,0 +1,24 @@
+/* design AFTER writing content */
+
+body {
+    font-family: Courier;
+}
+
+header {
+    text-align: center;
+    color: darkcyan;
+}
+
+li {
+    margin: 10px;
+}
+
+.intro {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.end {
+    font-size: 25px;
+    margin-top: 30px;
+}
